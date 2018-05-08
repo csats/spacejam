@@ -10,4 +10,3 @@ before_install:
   - git submodule update --init --recursive
   - "curl https://install.meteor.com | /bin/sh"
   - "meteor --version"
-  - "phantomjs -v"
