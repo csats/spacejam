@@ -61,8 +61,8 @@ if [ -z "$METEOR_APP_NAME" ]; then
   export METEOR_APP_NAME=$(basename $REPO_HOME)
 fi
 
-#if [ -z "$PACKAGE_DIRS" ]; then
-#  #TODO Add app/packages to PACKAGE_DIRS so cli app can find those packages
+#if [ -z "$METEOR_PACKAGE_DIRS" ]; then
+#  #TODO Add app/packages to METEOR_PACKAGE_DIRS so cli app can find those packages
 #fi
 
 if [ -z "$MONGO_URL" ] && [ -n "$MONGO_DB" ]; then

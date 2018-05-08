@@ -103,7 +103,7 @@ If not specified, will call meteor test-packages without arguments which will re
 
 1. All of your app's packages, if run from within a meteor app folder.
 
-2. All of the packages meteor will find in all the folders specified in the PACKAGE_DIRS environment variable.
+2. All of the packages meteor will find in all the folders specified in the METEOR_PACKAGE_DIRS environment variable.
 
 spacejam test-packages also sets process.env.METEOR_TEST_PACKAGES to '1', so packages can know they are running in the context of meteor test-packages. Not really a good practice, but sometimes just unavoidable.
 

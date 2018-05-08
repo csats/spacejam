@@ -3,13 +3,13 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.use(['meteor', 'coffeescript']);
+  api.use(['meteor', 'ecmascript']);
 
-  api.addFiles(['settings.coffee'])
+  api.addFiles(['settings.js'])
 });
 
 Package.onTest(function(api) {
-  api.use(['meteor', 'coffeescript', 'tinytest', 'settings']);
+  api.use(['meteor', 'ecmascript', 'tinytest', 'settings']);
 
-  api.addFiles('settings-test.coffee');
+  api.addFiles('settings-test.js');
 });

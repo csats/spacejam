@@ -3,13 +3,13 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.use(['coffeescript']);
+  api.use(['ecmascript']);
 
-  api.addFiles(['failure.coffee'])
+  api.addFiles(['failure.js'])
 });
 
 Package.onTest(function(api) {
-  api.use(['coffeescript', 'tinytest', 'failure']);
+  api.use(['ecmascript', 'tinytest', 'failure']);
 
-  api.addFiles('failure-test.coffee');
+  api.addFiles('failure-test.js');
 });

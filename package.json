@@ -13,7 +13,6 @@
     "underscore": "1.7.0"
   },
   "devDependencies": {
-    "coffee-script": "1.8.0",
     "mocha": "1.21.5",
     "sinon": "^5.0.7",
     "sinon-chai": "2.6.0",
@@ -23,9 +22,7 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "test": "bin/npm-test.sh",
-    "compile": "cake compile",
-    "prepublish": "cake compile"
+    "test": "bin/npm-test.sh"
   },
   "bin": {
     "spacejam": "bin/spacejam",

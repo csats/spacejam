@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-mocha --colors --compilers coffee:coffee-script/register --reporter spec tests/lib/*Test*.coffee
+mocha --colors --reporter spec tests/lib/*Test*.js

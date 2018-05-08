@@ -12,7 +12,6 @@ before_install:
   - nvm use 0.10.36
   - "curl https://install.meteor.com | /bin/sh"
   - "meteor --version"
-  - "npm install -g coffee-script@1.8.0"
 
 install:
   - npm install

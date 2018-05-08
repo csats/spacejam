@@ -3,13 +3,13 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.use(['coffeescript']);
+  api.use(['ecmascript']);
 
-  api.addFiles(['timeout.coffee'])
+  api.addFiles(['timeout.js'])
 });
 
 Package.onTest(function(api) {
-  api.use(['coffeescript', 'tinytest', 'timeout']);
+  api.use(['ecmascript', 'tinytest', 'timeout']);
 
-  api.addFiles('timeout-test.coffee');
+  api.addFiles('timeout-test.js');
 });

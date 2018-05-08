@@ -20,5 +20,4 @@ before_install:
 - curl https://install.meteor.com | /bin/sh
 - export PATH="$HOME/.meteor:$PATH"
 - meteor --version
-- npm install -g coffee-script@1.8.0
 - phantomjs -v
